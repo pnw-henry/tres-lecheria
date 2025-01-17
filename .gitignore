@@ -1,0 +1,27 @@
+# Logs (Rails)
+log/*.log
+tmp/*
+
+# Ignore byebug command history
+.byebug_history
+
+# Yarn / Node (React)
+node_modules/
+yarn-error.log
+
+# Rails dependencies
+.bundle
+vendor/bundle
+
+# Environment variables
+.env
+
+# Coverage reports
+coverage/
+
+# OSX
+.DS_Store
+
+# Editor directories and files
+.vscode/
+.idea/
