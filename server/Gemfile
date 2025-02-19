@@ -43,8 +43,10 @@ end
 group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+    gem 'dotenv-rails'
 end
 
 gem 'pg', '>= 1.1'    # PostgreSQL adapter
 gem 'aws-sdk-s3'      # For uploading images to AWS S3
+gem 'geocoder'	      # For location handling
 
